@@ -49,7 +49,7 @@ Link to GitHub Repository: https://github.com/priyanshu1044/part2_program_layout
 
 ### Memory Layout
 ### Memory Layout Diagram
-![Memory Layout Diagram](memory_layout.png)
+![Memory Layout Diagram](docs/memory_layout.png)
 
 ### Memory Segments
 The Software CPU uses a 16-bit address space (64KB):
@@ -61,7 +61,7 @@ The Software CPU uses a 16-bit address space (64KB):
 ### Recursion Stack Diagram
 This diagram shows how the stack grows as `factorial(5)` calls `factorial(4)` and so on.
 
-![Recursion Stack Diagram](recursion_stack.png)
+![Recursion Stack Diagram](docs/recursion_stack.png)
 
 ### Function Calls & Recursion
 The `FACTORIAL` function demonstrates recursion using the Stack:
@@ -75,5 +75,4 @@ The `FACTORIAL` function demonstrates recursion using the Stack:
 
 ### Demo Video
 
-![Recursion Demo](../demo-video/recursion_demo.webp)
-![Terminal Output](../demo-video/Terminal-output.mov)
+![Terminal Output](demo-video/Terminal-output.mov)
